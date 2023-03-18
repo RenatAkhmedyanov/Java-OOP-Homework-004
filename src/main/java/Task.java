@@ -92,10 +92,10 @@ public class Task implements Printable, Addable {
             if (input.equals("q")) {
                 break;
             } else {
-                id = list.size();
+                id = list.size() + 1;
                 System.out.println("Введите задачу:");
                 String inputName = scn.nextLine();
-                System.out.println("Задайте приоритет (Низкий/Средний/Высокий: ");
+                System.out.println("Задайте приоритет (Низкий/Средний/Высокий): ");
                 String inputPriority = scn.nextLine();
                 System.out.println("Введите ФИО:");
                 String inputFIO = scn.nextLine();
